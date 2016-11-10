@@ -1,0 +1,1 @@
+function SetDefaultPrintFolder(inpath)%function SetDefaultPrintFolder(inpath)%Set the default folder for printing to eps files via WriteEPS.%global DEFAULT_PRINT_FOLDER;DEFAULT_PRINT_FOLDER=inpath;

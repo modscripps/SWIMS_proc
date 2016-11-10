@@ -1,0 +1,1 @@
+function T=T_sbe(tfreq,a,b,c,d,fo)%T_sbe%3/01 MHA%Compute the SBE temperature in degs C from the raw%SBE frequency in Hz.  Input the correct calibration %coefficients for the sensor.T=1./(a+b.*(log(fo./tfreq)) + c.*(log(fo./tfreq)).^2 + ...	d.*(log(fo./tfreq)).^3) - 273.15;

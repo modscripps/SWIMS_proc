@@ -1,0 +1,5 @@
+%SWIMS OBS-3 calibration file.  Filename = S/N. (1810 lost w/SWIMS2)
+%Format description line follows.  4th line is first cal record.  Keep coeffs in same format.
+yyyy.mm.dd.hh.mm.ss Mo Bo [Slope and offset, first is nominal from D&A sheet]
+2001.06.11.00.00.00 50.0 0.0
+2002.05.09.15.00.00 3.6 0.0

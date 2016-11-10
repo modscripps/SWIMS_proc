@@ -1,0 +1,7 @@
+%SWIMS DataSonics altimeter calibration file.  Filename = S/N.
+%Format description line follows.  4th line is first cal record.  Keep coeffs in same format.
+yyyy.mm.dd.hh.mm.ss Mo Bo [Slope and offset, nominal S2:0-5V=0-300m, S1:0-10V=0-300m]
+2001.03.01.00.00.00 30.0 0.0
+2002.03.15.00.00.00 60.0 0.0
+2004.03.11.18.00.00 30.0 0.0
+2006.01.01.00.00.00 60.0 0.0

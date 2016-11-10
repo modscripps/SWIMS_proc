@@ -1,0 +1,1 @@
+%test routinesaguonecolumn(.4)wysiwygclfx=0:.1:2*pi;h=plot(x,sin(x),x,cos(x));lw(h(2),2)%tb(1,.3,'\leftarrow here')%tbr(1,.3,'\rightarrow')%tbr(1,.3,'here',0)[ax,t]=textbox(3,0,2,.3,'hi there');[ax,t]=textbox(.5,.5,.2,.2,'hi there',1)SetDefaultPrintFolder(eval('cd'))plot(1,1)WriteEPS('test')

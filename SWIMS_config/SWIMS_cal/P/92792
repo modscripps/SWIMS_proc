@@ -1,0 +1,4 @@
+%SWIMS pressure calibration file.  Filename = S/N. (86705)
+%Format description line follows.  4th line is first cal record.  Keep coeffs in same format.
+yyyy.mm.dd.hh.mm.ss C1 C2 C3 T1 T2 T3 T4 T5 D1 D2 mo yo/MPa (6.894759e-3 MPa / psi)
+2004.10.04.00.00.00 -9205.930 -0.200345 2.16417e-3 30.12628 -3.64647e-4 2.82588e-6 2.81624e-9 0.0 0.056878 0.0 1.000e+0 0

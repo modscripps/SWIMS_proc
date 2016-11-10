@@ -1,0 +1,4 @@
+%SWIMS TriTech altimeter calibration file.  Filename = S/N.
+%Format description line follows.  4th line is first cal record.  Keep coeffs in same format.
+yyyy.mm.dd.hh.mm.ss Mo Bo [Slope and offset, nominal 0-2.5V=0-100m]
+2003.10.09.00.00.00 40.0 0.0

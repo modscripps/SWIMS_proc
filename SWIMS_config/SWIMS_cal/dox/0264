@@ -1,0 +1,4 @@
+%SWIMS dissolved oxygen calibration file.  Filename = S/N (0264=Knorr loaner).
+%Format description line follows.  4th line is first cal record.  Keep coeffs in same format.
+yyyy.mm.dd.hh.mm.ss Soc Boc Voffset TCor Pcor
+2002.06.26.00.00.00 0.3872 0.0 -0.5890 0.0003 1.350e-4

@@ -1,0 +1,4 @@
+%SWIMS pressure temperature compensation calibration file.  Filename = S/N_TC.
+%Format description line follows.  4th line is first cal record.  Keep coeffs in same format.
+yyyy.mm.dd.hh.mm.ss M B (apply to raw counts from sensor)
+2001.03.01.00.00.00 0.2 -10.0

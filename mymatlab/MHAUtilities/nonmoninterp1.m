@@ -1,0 +1,1 @@
+function yi=nonmoninterp1(x,y,xi)%function yi=nonmoninterp1(x,y,xi)%Interp1 without the requirement that x be monotonic.%The interpolation is done after sorting.%1/01 MHA%%First sort[xs,is]=sort(x);%Then get rid of duplicates!ind=find(diff(x(is)) > 0);yi=interp1(x(is(ind)),y(is(ind)),xi);

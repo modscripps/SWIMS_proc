@@ -1,0 +1,8 @@
+%SWIMS Fluorometer calibration file.  Filename = S/N.
+%Format description line follows.  4th line is first cal record.  Keep coeffs in same format.
+yyyy.mm.dd.hh.mm.ss Mo Bo [Slope and offset: Mo=30,10,3,1 for cable=1X,3X,10X,30X]
+2002.03.15.00.00.00 30.0 0.0
+2002.04.01.00.00.00 3.0 0.0
+2003.01.01.00.00.00 3.0 0.0
+2006.01.31.00.00.00 30.0 0.0
+2008.02.10.06.00.00 3.0 0.0

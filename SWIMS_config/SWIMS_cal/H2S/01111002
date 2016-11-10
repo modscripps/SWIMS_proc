@@ -1,0 +1,4 @@
+%SWIMS H2S (sulphide) calibration file.  Filename = S/N.
+%Format description line follows.  4th line is first cal record.  Keep coeffs in same format.
+yyyy.mm.dd.hh.mm.ss aT0 aT1 aT2 aT3 a20C UGoff (offset in mV for H2S=0%, deck measured)
+2003.01.01.00.00.00 2.546720137 -0.16022938 0.005950079 -8.9744e-5 0.007319 0.00

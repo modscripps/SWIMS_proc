@@ -1,0 +1,77 @@
+Dave,
+here's what I get for the period after C1 unplugged itself (yday>94.9775):
+
+05-Mar-2010 17:29:41: Salinity de-spiking params (sensor pair #1): 
+delta=0.0802 s (1.924 scans), tau=0.0321 s
+1-coefficient fit: delta=-0.054 s (-1.30 scans)
+
+05-Mar-2010 17:32:26: Salinity de-spiking params (sensor pair #2): 
+delta=0.0761 s (1.827 scans), tau=0.0340 s
+1-coefficient fit: delta=-0.049 s (-1.18 scans)
+
+Now they are closer to each other, and tau>0 as expected.
+- Andrey
+
+
+
+On 2/10/2010 12:07 PM, winkel@apl.washington.edu wrote:
+> Thanks, Andrey!
+>
+> It looks like the values for pair #2 are similar to
+> those you came up with before (for stf07, pair #1),
+> but those new ones for pair #1 are less so.
+> Is tau<0 (-0.0233 s) physically sensible?
+> There was a section of data where Cond#1 likely had
+> something in it, inhibiting the flow and producing large
+> spikes in Sal#1 and artificial overturns in SigmaTheta#1.
+> Could this cause problems for your optimization?
+> The yday range was 94.9767 to 94.9775 (about 12 minutes).
+>
+> Dave
+>
+>> Hi, Dave-
+>>
+>> here's what I get:
+>>
+>> 09-Feb-2010 09:59:10: Salinity de-spiking params (sensor pair #1):
+>> delta=0.0248 s (0.596 scans), tau=-0.0233 s
+>> 1-coefficient fit: delta=-0.047 s (-1.12 scans)
+>> Thermal mass coefficients (sensor pair #1): alpha=0.0146, tau=14.316 s
+>>
+>> 09-Feb-2010 10:02:05: Salinity de-spiking params (sensor pair #2):
+>> delta=0.0705 s (1.692 scans), tau=0.0327 s
+>> 1-coefficient fit: delta=-0.043 s (-1.02 scans)
+>> Thermal mass coefficients (sensor pair #2): alpha=0.0196, tau=11.840 s
+>>
+>> Let me know how it looks when applied to the real data - sometimes the
+>> test dataset is not quite representative.
+>> - Andrey
+>>
+>>
+>>
+>> winkel@apl.washington.edu wrote:
+>>> Andrey,
+>>>
+>>> Here are some SWIMS3 data from the Monterey Canyon
+>>> cruise in 2009.  Structure CSci has un-shifted T1,C1, T2,C2
+>>> and Pr.  The data are spaced at 24-Hz, regardless of the
+>>> diff(CSci.yday_adj) variations.  I also included the S1,S2
+>>> and Sg1,Sg2 resulting from the default parameter values
+>>> you came up with during the Intrusions cruise.
+>>> Those values are in CSci fields (for [primary, secondary] TC):
+>>>      cond_lag: [1.934 1.934]
+>>>       cond_tau: [0.0381 0.0381]
+>>>        sal_fft: [1 1]
+>>>         TLalfa: [0.0142 0.0142]
+>>>         TLbeta: [0.085128 0.085128],
+>>> as used in the attached salin_swims_fft.m
+>>> I assume the optimized values may differ for T1,C1 vs T2,C2.
+>>>
+>>> Also, PROFS has the beginning and ending ydays for the
+>>> gridded profiles during this 'sub-group', with PROFS.updown
+>>> indicating the direction (+1=up, -1=down).
+>>>
+>>> Thanks for your help!
+>>>
+>>> Dave
+>>

@@ -1,0 +1,9 @@
+%SWIMS dissolved oxygen calibration file.  Filename = S/N. (SWIMS1, gain=2 => use SBE Soc/2 and Voffset*2)
+%Format description line follows.  4th line is first cal record.  Keep coeffs in same format.
+yyyy.mm.dd.hh.mm.ss Soc Boc Voffset TCor Pcor
+2002.03.05.00.00.00 0.3725 0.0 -0.4757 0.0009 1.350e-4
+2003.03.13.00.00.00 0.3807 0.0 -0.5018 0.0006 1.350e-4
+2003.11.19.00.00.00 0.3945 0.0 -0.4929 0.0010 1.350e-4
+2004.04.26.00.00.00 0.4076 0.0 -0.5030 0.0010 1.350e-4
+2004.04.26.00.12.59 0.2038 0.0 -1.0060 0.0010 1.350e-4
+2007.05.17.00.00.00 0.3999 0.0 -0.4957 0.0009 1.350e-4

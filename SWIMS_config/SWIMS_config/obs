@@ -1,0 +1,9 @@
+%SWIMS config file.  Filename = channel.
+%Format description line follows.  4th line is first config record.  Keep coeffs in same format.
+%yyyy.mm.dd.hh.mm.ss s/n
+1990.01.01.00.00.00 []
+2002.03.15.00.00.00 1809
+2002.05.09.15.00.00 1810
+2004.03.11.18.00.00 []
+2006.01.31.00.00.00 1809
+2011.11.02.00.00.00 T8742Hi

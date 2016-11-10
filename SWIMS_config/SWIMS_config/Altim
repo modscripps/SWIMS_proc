@@ -1,0 +1,14 @@
+%SWIMS config file.  Filename = channel.
+%Format description line follows.  4th line is first config record.  Keep coeffs in same format.
+%yyyy.mm.dd.hh.mm.ss s/n (DataSonics, TriTech)
+1990.01.01.00.00.00 []
+2002.03.15.00.00.00 DS
+2003.10.09.16.00.00 TT
+2003.10.09.18.00.00 DS
+2003.11.07.00.00.00 TT
+2003.11.19.00.00.00 DS
+2004.02.21.00.00.00 []
+2004.03.11.18.00.00 []
+2004.10.21.00.00.00 DS
+2007.06.20.00.00.00 []
+2008.02.01.00.00.00 TT

@@ -1,0 +1,1 @@
+function [b,a]=MHAButter(zs,zc)%[b,a]=function MHAButter(zs,zc)%Return the coefficients for a fourth-order Butterworth filter for data sampled%at the interval zs, and cutoff scale zc.fn=1/2/zs;fc=1/zc;[b,a]=butter(4,fc/fn);

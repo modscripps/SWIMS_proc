@@ -1,0 +1,1 @@
+%Take the Y limits and trick MATLAB into putting intelligent tick marks %on the plot.%1/25/01%a=get(gca,'YLim');t1=ceil(log10(a(1)));t2=floor(log10(a(2)));maxnum=5;sk=ceil((t2 - t1 + 1) / maxnum);set(gca,'YTick',10.^(t1:sk:t2));

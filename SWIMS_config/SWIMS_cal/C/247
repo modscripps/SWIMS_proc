@@ -1,0 +1,7 @@
+%SWIMS conductivity calibration file.  Filename = S/N.
+%Format description line follows.  4th line is first cal record.  Keep coeffs in same format.
+yyyy.mm.dd.hh.mm.ss a b c d m
+2002.05.24.00.00.00 3.38657076e-8 5.02604686e-1 -4.24596794e+0 -4.15571037e-5 6.7
+2004.01.27.00.00.00 5.26864937e-8 4.87950075e-1 -4.12333593e+0 -5.30420517e-5 6.5
+2004.04.29.00.00.00 6.81068239e-8 4.87902057e-1 -4.12377526e+0 -4.91539305e-5 6.4
+2007.04.24.00.00.00 8.74749141e-8 4.87915012e-1 -4.12322499e+0 -4.78706208e-5 6.3

@@ -1,0 +1,1 @@
+function lw(h,c)%function lw(h,w)%Set the color of a handle h to c, an RGB triplet.set(h,'Color',c)

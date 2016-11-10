@@ -1,0 +1,1 @@
+function ytoff%function ytoff%Turn the y ticks off for the current axis.set(gca,'YTick',[])

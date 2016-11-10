@@ -1,0 +1,4 @@
+%SWIMS temperature calibration file.  Filename = S/N.
+%Format description line follows.  4th line is first cal record.  Keep coeffs in same format.
+yyyy.mm.dd.hh.mm.ss a b c d fo
+2016.03.17.12.00.00 4.32813228e-3 6.32311810e-4 1.93384078e-5 1.51461449e-6 1000.000

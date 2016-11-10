@@ -1,0 +1,1 @@
+function Ht_Alt = Altim_Swims(AltV, m, b)% Ht_Alt = Altim_Swims(AltV, m, b);% Compute height above bottom from altimeter;%   AltV = raw voltages from DataSonics (S2:0-5 V, S1:0-10 V) or Tritech (0-2.5 V);%   m,b = slope,offset calibration coefficients%   Ht_Alt = Altitude in meters%   DPW - Oct/2003Ht_Alt = AltV * m + b;

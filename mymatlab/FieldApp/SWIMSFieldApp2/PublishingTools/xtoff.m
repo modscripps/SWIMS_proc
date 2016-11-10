@@ -1,0 +1,1 @@
+function xtoff%function xtoff%Turn the x ticks off for the current axis.set(gca,'XTick',[])

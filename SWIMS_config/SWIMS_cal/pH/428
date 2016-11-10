@@ -1,0 +1,4 @@
+%SWIMS pH sensor (SBE 18) calibration file.  Filename = S/N.
+%Format description line follows.  4th line is first cal record.  Keep coeffs in same format.
+yyyy.mm.dd.hh.mm.ss slope offset 
+2002.11.20.00.00.00 4.4472 2.4903

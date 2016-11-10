@@ -1,0 +1,4 @@
+%SWIMS OBS-3+ calibration file.  Filename = S/N{Lo,Hi}. (oct 2011, 3+ replaced obs-3)
+%Format description line follows.  4th line is first cal record.  Keep coeffs in same format.
+yyyy.mm.dd.hh.mm.ss Mo Bo Qo [Slope, offset, then quadratic added for OBS-3+ (Qo=0 for obs-3)]
+2011.10.17.00.00.00 1.8063e+2 1.7494e-3 2.4178e+1
