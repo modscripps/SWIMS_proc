@@ -1,15 +1,15 @@
 % set_swims_paths.m
 
 % -------------------------------------------------------------------------
-% Edit for your personal setup and cruise
+% Edit for your personal setup and the cruise you're working with
 % -------------------------------------------------------------------------
 
-crz = 'SproulTest';
-year = 2016;
+crz = 'ArcticMix';
+year = 2015;
 %directory containing raw data
-%localpath   = fullfile('/Users','ecfine','Documents','scripps',...
-%   'arctic2015','swims','raw');
- localpath   = fullfile('/Users','ecfine', 'Documents','FAST','raw_data');
+localpath   = fullfile('/Volumes','Ahua', 'data_archive',...
+    'WaveChasers-DataArchive','Arctic','Cruises','SKQ201511S','data',...
+    'swims','raw_data');
    
 matlabdisk  = fullfile('/Users','ecfine','Documents','MATLAB');
 %directory where processed data is saved 
