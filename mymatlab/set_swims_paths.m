@@ -7,8 +7,8 @@
 crz = 'SproulTest';
 year = 2016;
 %directory containing raw data
- %localpath   = fullfile('/Users','ecfine','Documents','scripps',...
- %    'arctic2015','swims','raw');
+%localpath   = fullfile('/Users','ecfine','Documents','scripps',...
+%   'arctic2015','swims','raw');
  localpath   = fullfile('/Users','ecfine', 'Documents','FAST','raw_data');
    
 matlabdisk  = fullfile('/Users','ecfine','Documents','MATLAB');
